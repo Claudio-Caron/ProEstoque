@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# ProEstoque – Gestão Inteligente de Inventário
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O ProEstoque é um sistema completo de gestão de produtos e controle de estoque desenvolvido para atender às necessidades de pequenos comércios. O projeto abrange desde a interface do usuário (Mobile/Web) até o desenvolvimento de uma API robusta com integração a banco de dados.
 
-## Get started
+## Sobre o Projeto
 
-1. Install dependencies
+Este software foi desenvolvido como projeto principal do semestre, focado em criar uma solução real e funcional para o mercado de varejo. Ele permite o controle total de movimentações, alertas inteligentes e visualização de dados através de dashboards dinâmicos.
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades Principais
 
-2. Start the app
+* **Autenticação:** Fluxo completo de Login, Cadastro e Recuperação de Senha.
+* **Gestão de Produtos:** Cadastro detalhado com suporte a fotos e categorização personalizada.
+* **Controle de Estoque:** Histórico detalhado de movimentações (entradas e saídas).
+* **Inteligência e Dados:** Dashboard com indicadores gráficos e notificações via push para níveis críticos de estoque.
+* **Perfil do Usuário:** Gerenciamento de configurações e dados da conta.
 
-   ```bash
-   npx expo start
-   ```
+## Tecnologias e Roadmap de Desenvolvimento
 
-In the output, you'll find options to open the app in a
+O projeto foi estruturado para evoluir de um protótipo funcional para uma aplicação Full Stack escalável, utilizando as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Frontend e Mobile:** Desenvolvimento de interfaces de alta fidelidade e setup moderno.
+* **Backend:** Node.js com arquitetura API REST.
+* **ORM:** Prisma para modelagem de dados.
+* **Banco de Dados:** PostgreSQL.
+* **Infraestrutura:** Planejamento de deploy e estratégias de integração contínua.
